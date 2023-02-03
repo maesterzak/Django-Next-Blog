@@ -23,9 +23,11 @@ export default function PostCard(params) {
         <h2 className="text-[#152035] text-3xl">Drifting Apart, Growing Happy</h2>
 
     </div>
-    <div className="flex gap-3 items-center">
-    <img class="mt-2 w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/img/1.jpg" alt="Bordered avatar" />
-    <span className="h-fit text-center flex align-middle">Maesterzak</span>
+    <div className="flex gap-4 align-middle h-14">
+        <div className="relative w-10 h-10">
+    <Image layout="fill" class="mt-2 w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="/img/1.jpg" alt="Bordered avatar" />
+    </div>
+    <span className="flex items-center">Maesterzak</span>
     </div>
     <div className="mt-3">
         <p>
