@@ -32,3 +32,13 @@ a {
     /* background: black; */
   }
 }
+.site-name{
+  font-family: var(--dancing-script);
+}
+.header{
+  font-family: var(--roboto-slab);
+}
+body{
+  font-family:  var(--work-sans);
+}
+
