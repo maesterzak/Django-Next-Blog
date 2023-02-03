@@ -2,6 +2,7 @@ import Featured from '@/component/Feautured'
 import PostCard from '@/component/postCard'
 import Head from 'next/head'
 import Image from 'next/image'
+import React from 'react'
 import Hero from '../component/Hero'
 import Navbar from '../component/Navbar'
 import styles from '../styles/Home.module.css'
@@ -36,10 +37,11 @@ export default function Home() {
         <h1 className='text-center font-bold text-4xl mt-0 md:mt-10 mb-10'>Recent posts</h1>
         <div className=' gap-3 flex flex-wrap justify-center'>
           
-          {posts.map(()=>{
+          {posts.map((item, index)=>{
         return(
-
+          <React.Fragment key={index}>
           <PostCard />
+          </React.Fragment>
         )
       })}
 
