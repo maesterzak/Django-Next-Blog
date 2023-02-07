@@ -41,4 +41,8 @@ a {
 body{
   font-family:  var(--work-sans);
 }
+a:hover{
+  color: #f08e80;
+}
+
 
