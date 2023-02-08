@@ -1,4 +1,4 @@
-import AdminLayout from "./layout";
+import AdminLayout from "../layout";
 import Link from "next/link";
 import Image from "next/image";
 const data =[1,2,3,4]
@@ -21,7 +21,7 @@ function Post(){
                 <div>
                         {data.map((item, index)=>{
                             return(
-                                <div className="flex w-full p-4">
+                                <div className="flex w-full p-4" key={index}>
                                     <div className="w-[25%] md:w-[10%] h-16 ">
                                     <Image
                                     alt=""
@@ -60,6 +60,10 @@ function Post(){
                     </div>
 
                 </div>
+
+                
+
+                
 
             </div>
 
